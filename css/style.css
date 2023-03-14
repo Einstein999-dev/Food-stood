@@ -161,7 +161,7 @@ p{
    
    .quantity .input-text.qty {
     width: 35px;
-    height: 39px;
+    height: 41px;
     padding: 0 5px;
     text-align: center;
     background-color: transparent;
@@ -222,7 +222,8 @@ p{
 }
 .header_wrapper .navbar-brand:hover{
     transform: scale(1.1);
-    transition: 0.3s ease all;   
+    transition: 0.3s ease all; 
+    rotate: 10deg;  
 }
 .header_wrapper .navbar-toggler:focus{
     box-shadow: none;
@@ -252,10 +253,20 @@ p{
     transition: 0.3s all ease;
     color: red;
 }
-/* slider images styling  */
-/* .slide_wrapper .carousel{
 
-} */
+/* slider images styling  */
+.slide_wrapper .carousel{
+    height: 100vh;
+}
+
+/* nav tab styling  */
+.nav-tabs{
+    margin-top: 100px;
+}
+.nav-tabs button{
+    color: black;
+}
+
 
 /* food sections tab styling */
 .card{
@@ -280,11 +291,8 @@ p{
 .card .btn{
     text-align: end;
 }
-.nav-tabs button{
-    color: black;
-}
 
 .c_img img{
-    border-radius: 10px;
+    border-radius: 8px;
 }
 

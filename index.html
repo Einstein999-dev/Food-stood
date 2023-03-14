@@ -26,7 +26,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav me-auto justify-content-center">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Food</a>
+                      <a class="nav-link active" aria-current="page" href="#">Food</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Drink</a>
@@ -110,29 +110,31 @@
                         <!-- tab 1 -->
                         <div class="tab-pane active" id="street" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                             <div class="row pt-5 justify-content-evenly street_row">
+                              <!-- samosa card with modal  -->
                                 <div class="card">
                                         <img src="./img/menu/street/samosa.avif" class="card-img-top" alt="...">
                                         <div class="card-body">
                                           <h5 class="card-title">Samosa</h5>
                                           <p class="card-text">Mithai street food, fast food</p>
                                           <!-- modal samosa -->
-                                          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                          <div class="modal fade" id="samosa" aria-hidden="true" aria-labelledby="samosa" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                               <div class="modal-content">
                                                 <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                  <h1 class="modal-title fs-5" id="samosa">Samosa</h1>
                                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
                                                   <div class="row">
                                                     <div class="col-sm-6 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                        <img src="./img/menu/street/samosa.avif" height="150" width="200" alt="">
                                                     </div>
-                                                    <div class="col-sm-6">
+                                                    <div class="col-sm-6 justify-content-center">
                                                       <div class="row">
-                                                          Mrp: 30/-
+                                                          <h5>MRP: 30/-</h5>
                                                       </div>
                                                       <div class="row">
+                                                        <h6>Quantity</h6>
                                                         <div class="quantity buttons_added">
 	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                                                         </div>
@@ -146,32 +148,40 @@
                                               </div>
                                             </div>
                                           </div>
-                                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                          <!-- modal ends  -->
+                                          <button class="btn btn-primary" data-bs-target="#samosa" data-bs-toggle="modal">Select</button>
                                         </div>  
                                     </div>
+                                    <!-- vadapav card with modal  -->
                                     <div class="card">
                                         <img src="./img/menu/street/vada pav.avif" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                      <div class="card-body">
                                         <h5 class="card-title">Vada Pav</h5>
                                         <p class="card-text">Mithai street food, fast food</p>
-                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <!-- modal vadapav  -->
+                                        <div class="modal fade" id="vada" aria-hidden="true" aria-labelledby="vada" tabindex="-1">
                                           <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                <h1 class="modal-title fs-5" id="vada">Vada pav</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
                                                 <div class="row">
-                                                  <div class="col-sm-4 c_img">
-                                                      <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                  <div class="col-sm-6 c_img">
+                                                      <img src="./img/menu/street/vada pav.avif" height="150" width="200" alt="">
                                                   </div>
-                                                  <div class="col-sm-4">
-                                                  
-                                                  </div>
-                                                  <div class="col-sm-4">
-                                                      Mrp: 30/-
-                                                  </div>
+                                                  <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
+                                                    </div>
                                                 </div>
                                               </div>
                                               <div class="modal-footer">
@@ -180,32 +190,40 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                        <!-- modal ends  -->
+                                          <button class="btn btn-primary" data-bs-target="#vada" data-bs-toggle="modal">Select</button>
+                                      </div>
                                     </div>
-                                    </div>
+                                    <!-- kachori card with modal  -->
                                     <div class="card">
                                         <img src="./img/menu/street/kachori.avif" class="card-img-top" alt="...">
-                                    <div class="card-body">
+                                      <div class="card-body">
                                         <h5 class="card-title">kachori</h5>
                                         <p class="card-text">Mithai street food, fast food</p>
-                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <!-- modal kachori  -->
+                                        <div class="modal fade" id="kachori" aria-hidden="true" aria-labelledby="kachori" tabindex="-1">
                                           <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                <h1 class="modal-title fs-5" id="kachori">Kachori</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
                                                 <div class="row">
-                                                  <div class="col-sm-4 c_img">
-                                                      <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                  <div class="col-sm-6 c_img">
+                                                      <img src="./img/menu/street/kachori.avif" height="150" width="200" alt="">
                                                   </div>
-                                                  <div class="col-sm-4">
-                                                  
-                                                  </div>
-                                                  <div class="col-sm-4">
-                                                      Mrp: 30/-
-                                                  </div>
+                                                  <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
+                                                    </div>
                                                 </div>
                                               </div>
                                               <div class="modal-footer">
@@ -214,7 +232,8 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                        <!-- modal ends  -->
+                                        <button class="btn btn-primary" data-bs-target="#kachori" data-bs-toggle="modal">Select</button>
                                     </div>
                                 </div>
                             </div>
@@ -222,28 +241,35 @@
                         <!-- tab 2 -->
                         <div class="tab-pane" id="pizza" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                             <div class="row pt-5 justify-content-evenly pizza_row">
+                              <!-- cheese pizza with modal  -->
                                 <div class="card">
                                         <img src="./img/menu/pizza/3bb0b4a960d22dbc7226722897f9fcb7_o2_featured_v2.avif" class="card-img-top" alt="...">
                                         <div class="card-body">
                                           <h5 class="card-title">Cheese Pizza</h5>
-                                          <p class="card-text"></p>
-                                          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                          <p class="card-text">Delicious taste by dominoz</p>
+                                          <!-- modal cheese pizza  -->
+                                          <div class="modal fade" id="cheese" aria-hidden="true" aria-labelledby="cheese" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                               <div class="modal-content">
                                                 <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                  <h1 class="modal-title fs-5" id="cheese">Cheese pizza</h1>
                                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
                                                   <div class="row">
-                                                    <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                    <div class="col-sm-6 c_img">
+                                                        <img src="./img/menu/pizza/3bb0b4a960d22dbc7226722897f9fcb7_o2_featured_v2.avif" height="150" width="200" alt="">
                                                     </div>
-                                                    <div class="col-sm-4">
-                                                    
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        Mrp: 30/-
+                                                    <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -253,32 +279,40 @@
                                               </div>
                                             </div>
                                           </div>
-                                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                          <!-- modal ends  -->
+                                          <button class="btn btn-primary" data-bs-target="#cheese" data-bs-toggle="modal">Select</button>
                                         </div>
                                     </div>
+                                    <!-- onion pizza with modal  -->
                                     <div class="card">
                                         <img src="./img/menu/pizza/9efcfc3bdf4f1fa5c9a5cb7f9a2be586_o2_featured_v2.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Onion Pizza</p>
-                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <h5 class="card-title">Onion Pizza</h5>
+                                        <p class="card-text">Delicious taste by dominoz</p>
+                                        <!-- modal onion pizza  -->
+                                        <div class="modal fade" id="onion" aria-hidden="true" aria-labelledby="onion" tabindex="-1">
                                           <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                <h1 class="modal-title fs-5" id="onion">Onion pizza</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
                                                 <div class="row">
-                                                  <div class="col-sm-4 c_img">
-                                                      <img src="./img/menu/street/vada pav.avif" height="100" width="150" alt="">
+                                                  <div class="col-sm-6 c_img">
+                                                      <img src="./img/menu/pizza/9efcfc3bdf4f1fa5c9a5cb7f9a2be586_o2_featured_v2.avif" height="150" width="200" alt="">
                                                   </div>
-                                                  <div class="col-sm-4">
-                                                  
-                                                  </div>
-                                                  <div class="col-sm-4">
-                                                      Mrp: 30/-
-                                                  </div>
+                                                  <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
+                                                    </div>
                                                 </div>
                                               </div>
                                               <div class="modal-footer">
@@ -287,32 +321,40 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                        <!-- modal ends  -->
+                                          <button class="btn btn-primary" data-bs-target="#onion" data-bs-toggle="modal">Select</button>
+                                      </div>
                                     </div>
-                                    </div>
+                                    <!-- chiken pizza with modal  -->
                                     <div class="card">
                                         <img src="./img/menu/pizza/6d8efab7fa1d3071651881b1655bd72e_o2_featured_v2.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Chicken pizza</p>
-                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <h5 class="card-title">Chicken pizza</h5>
+                                        <p class="card-text">Delicious taste by dominoz</p>
+                                        <!-- modal chicken pizza  -->
+                                        <div class="modal fade" id="chicken" aria-hidden="true" aria-labelledby="chicken" tabindex="-1">
                                           <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                <h1 class="modal-title fs-5" id="chicken">Chicken pizza</h1>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                               </div>
                                               <div class="modal-body">
                                                 <div class="row">
-                                                  <div class="col-sm-4 c_img">
-                                                      <img src="./img/menu/street/kachori.avif" height="100" width="150" alt="">
+                                                  <div class="col-sm-6 c_img">
+                                                      <img src="./img/menu/pizza/6d8efab7fa1d3071651881b1655bd72e_o2_featured_v2.avif" height="150" width="200" alt="">
                                                   </div>
-                                                  <div class="col-sm-4">
-                                                  
-                                                  </div>
-                                                  <div class="col-sm-4">
-                                                      Mrp: 30/-
-                                                  </div>
+                                                  <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
+                                                    </div>
                                                 </div>
                                               </div>
                                               <div class="modal-footer">
@@ -321,7 +363,8 @@
                                             </div>
                                           </div>
                                         </div>
-                                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                        <!-- modal ends  -->
+                                        <button class="btn btn-primary" data-bs-target="#chicken" data-bs-toggle="modal">Select</button>
                                     </div>
                                 </div>
                             </div>
@@ -329,28 +372,35 @@
                         <!-- tab 3 -->
                         <div class="tab-pane" id="chinese" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
                             <div class="row pt-5 justify-content-evenly chinese_row">
+                              <!-- Japnese meal with modal  -->
                                 <div class="card">
                                         <img src="./img/menu/chinese/2ce4f2a9326bf5f8de793ed269e3f77d_o2_featured_v2.avif" class="card-img-top" alt="...">
                                         <div class="card-body">
-                                          <h5 class="card-title">Card title</h5>
-                                          <p class="card-text"></p>
-                                          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                          <h5 class="card-title">Japanese meal</h5>
+                                          <p class="card-text">japnese meal with cheezy salted</p>
+                                          <!-- japnese meal modal  -->
+                                          <div class="modal fade" id="Japanese" aria-hidden="true" aria-labelledby="Japanese" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                               <div class="modal-content">
                                                 <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                  <h1 class="modal-title fs-5" id="Japanese">Japanese meal</h1>
                                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
                                                   <div class="row">
-                                                    <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                    <div class="col-sm-6 c_img">
+                                                        <img src="./img/menu/chinese/2ce4f2a9326bf5f8de793ed269e3f77d_o2_featured_v2.avif" height="150" width="200" alt="">
                                                     </div>
-                                                    <div class="col-sm-4">
-                                                    
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        Mrp: 30/-
+                                                    <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -360,31 +410,39 @@
                                               </div>
                                             </div>
                                           </div>
-                                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                          <!-- modal ends  -->
+                                          <button class="btn btn-primary" data-bs-target="#Japanese" data-bs-toggle="modal">Select</button>
                                         </div>
                                     </div>
+                                    <!-- italian chinese meal with modal -->
                                     <div class="card">
                                         <img src="./img/menu/chinese/77dc8c17b683d2ce703dcb48a5a7c86b_o2_featured_v2.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"></p>
-                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <h5 class="card-title">Italian meal</h5>
+                                        <p class="card-text">Italian meal with delicious dishes</p>
+                                        <!-- italian modal  -->
+                                        <div class="modal fade" id="Italian" aria-hidden="true" aria-labelledby="Italian" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                               <div class="modal-content">
                                                 <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                  <h1 class="modal-title fs-5" id="Italian">Italian Meal</h1>
                                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
                                                   <div class="row">
-                                                    <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                    <div class="col-sm-6 c_img">
+                                                        <img src="./img/menu/chinese/77dc8c17b683d2ce703dcb48a5a7c86b_o2_featured_v2.avif" height="150" width="200" alt="">
                                                     </div>
-                                                    <div class="col-sm-4">
-                                                    
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        Mrp: 30/-
+                                                    <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -394,31 +452,38 @@
                                               </div>
                                             </div>
                                           </div>
-                                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                          <button class="btn btn-primary" data-bs-target="#Italian" data-bs-toggle="modal">Select</button>
+                                      </div>
                                     </div>
-                                    </div>
+                                    <!-- mexican meal with modal  -->
                                     <div class="card">
                                         <img src="./img/menu/chinese/fc916484c16a986d9f74117d0f90222c_o2_featured_v2.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"></p>
-                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <h5 class="card-title"> Mexican meal</h5>
+                                        <p class="card-text">Mexiacan food with deliciuos taste</p>
+                                        <!-- Mexican modal  -->
+                                        <div class="modal fade" id="mexican" aria-hidden="true" aria-labelledby="mexican" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                               <div class="modal-content">
                                                 <div class="modal-header">
-                                                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Samosa</h1>
+                                                  <h1 class="modal-title fs-5" id="mexican">Mexican meal</h1>
                                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
                                                   <div class="row">
-                                                    <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                    <div class="col-sm-6 c_img">
+                                                        <img src="./img/menu/chinese/fc916484c16a986d9f74117d0f90222c_o2_featured_v2.avif" height="150" width="200" alt="">
                                                     </div>
-                                                    <div class="col-sm-4">
-                                                    
-                                                    </div>
-                                                    <div class="col-sm-4">
-                                                        Mrp: 30/-
+                                                    <div class="col-sm-6 justify-content-center">
+                                                      <div class="row">
+                                                          <h5>MRP: 30/-</h5>
+                                                      </div>
+                                                      <div class="row">
+                                                        <h6>Quantity</h6>
+                                                        <div class="quantity buttons_added">
+	                                                          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                                        </div>
+                                                      </div>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -428,7 +493,7 @@
                                               </div>
                                             </div>
                                           </div>
-                                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Select</button>
+                                          <button class="btn btn-primary" data-bs-target="#mexican" data-bs-toggle="modal">Select</button>
                                     </div>
                                 </div>
                             </div>
@@ -451,7 +516,7 @@
                                                 <div class="modal-body">
                                                   <div class="row">
                                                     <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                        <img src="./img/menu/street/samosa.avif" height="150" width="200" alt="">
                                                     </div>
                                                     <div class="col-sm-4">
                                                     
@@ -485,7 +550,7 @@
                                                 <div class="modal-body">
                                                   <div class="row">
                                                     <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                        <img src="./img/menu/street/samosa.avif" height="150" width="200" alt="">
                                                     </div>
                                                     <div class="col-sm-4">
                                                     
@@ -519,7 +584,7 @@
                                                 <div class="modal-body">
                                                   <div class="row">
                                                     <div class="col-sm-4 c_img">
-                                                        <img src="./img/menu/street/samosa.avif" height="100" width="150" alt="">
+                                                        <img src="./img/menu/street/samosa.avif" height="150" width="200" alt="">
                                                     </div>
                                                     <div class="col-sm-4">
                                                     
